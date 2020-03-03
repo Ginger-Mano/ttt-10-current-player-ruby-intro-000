@@ -4,7 +4,7 @@ def turn_count(board)
 #  players = ["player 1", "player 2"] 1
 binding.pry
   board.each do |player|
-   if player == "X" || player == "O" 
+   if player == "X" || player == "O"
     counter += 1
   end
  end
